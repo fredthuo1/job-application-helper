@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
     plugins: [react()],
-    base: 'https://github.com/fredthuo1/job-application-helper/vite-project'
+    base: '/job-application-helper/vite-project/', // Correct deployment path for GitHub Pages
 });
